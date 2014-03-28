@@ -1,0 +1,1 @@
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: -6 at java.lang.String.substring(String.java:1911) at src.java.StringUtils.TruncateString(StringUtils.java:43) at src.java.TruncateStringDriver.main(TruncateStringDriver.java:16)

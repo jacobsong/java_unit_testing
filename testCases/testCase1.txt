@@ -1,0 +1,6 @@
+TEST NUMBER: 1
+REQUIREMENTS: The first input must be a string and the second input 'n' is the value used to truncate the string at the 'n'th character.
+COMPONENT BEING TESTED: The StringUtils class.
+TruncateString
+this is a test,7
+this is

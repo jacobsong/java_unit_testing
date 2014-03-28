@@ -1,0 +1,57 @@
+<html><head></head><body><h1>Test Results</h1><h3>Test date: Fri Mar 28 17:07:00 EDT 2014
+</h3><table border="1" width="300"><tr>
+<td><b>TEST NUMBER</b></td>
+<td><b>REQUIREMENTS</b></td>
+<td><b>COMPNONENT BEING TESTED</b></td>
+<td><b>METHOD NAME</b></td>
+<td><b>INPUT</b></td>
+<td><b>EXPECTED OUTPUT</b></td>
+<td><b>ACTUAL OUTPUT</b></td>
+<td><b>RESULT</b></td>
+</tr>
+<tr>
+<td> 1</td>
+<td> The first input must be a string and the second input 'n' is the value used to truncate the string at the 'n'th character.</td>
+<td> The StringUtils class.</td>
+<td> TruncateString</td>
+<td> this is a test, 7</td>
+<td> this is</td>
+<td>  this is</td>
+<td> PASS</td>
+</tr><tr>
+<td> 2</td>
+<td> The first input must be a string and the second input 'n' is the value used to truncate the string at the 'n'th character.</td>
+<td> The StringUtils class.</td>
+<td> TruncateString</td>
+<td> tree, 10</td>
+<td> tree</td>
+<td>  tree</td>
+<td> PASS</td>
+</tr><tr>
+<td> 3</td>
+<td> The first input must be a string and the second input 'n' is the value used to truncate the string at the 'n'th character.</td>
+<td> The StringUtils class.</td>
+<td> TruncateString</td>
+<td> random string, 0</td>
+<td><NO OUTPUT></td>
+<td><NO OUTPUT></td>
+<td> PASS</td>
+</tr><tr>
+<td> 4</td>
+<td> The first input must be a string and the second input 'n' is the value used to truncate the string at the 'n'th character.</td>
+<td> The StringUtils class.</td>
+<td> TruncateString</td>
+<td> tree, -6</td>
+<td> Exception in thread "main" java.lang.StringIndexOutOfBoundsException</td>
+<td>  Exception in thread "main" java.lang.StringIndexOutOfBoundsException</td>
+<td> PASS</td>
+</tr><tr>
+<td> 5</td>
+<td> The first input must be a string and the second input 'n' is the value used to truncate the string at the 'n'th character.</td>
+<td> The StringUtils class.</td>
+<td> TruncateString</td>
+<td> tree, a</td>
+<td> Exception in thread "main" java.lang.NumberFormatException</td>
+<td>  Exception in thread "main" java.lang.NumberFormatException</td>
+<td> PASS</td>
+</tr></table></body></html>
